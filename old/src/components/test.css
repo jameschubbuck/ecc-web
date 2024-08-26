@@ -1,0 +1,19 @@
+#MainNav {
+    display: none;
+}
+
+#MobileNav {
+    display: none;
+}
+
+@media (min-width: 610px) {
+    #MainNav {
+        display: block;
+    }
+}
+
+@media (max-width: 609px) {
+    #MobileNav {
+        display: block;
+    }
+}
